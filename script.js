@@ -45,9 +45,9 @@ function desencriptar(stringDesencriptada){
 }
 
 function copiarTexto(){
-   /*let textoCopiado = mensaje.value;
+   let textoCopiado = mensaje.value;
     textArea.value=textoCopiado
-    mensaje.value=""*/
-    let textoCopiado= mensaje.value;
-    navigator.clipboard.writeText(textoCopiado);
+    mensaje.value=""
+    /*let textoCopiado= mensaje.value;
+    navigator.clipboard.writeText(textoCopiado);*/
 }

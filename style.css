@@ -83,3 +83,17 @@ main{
     color: #495057;
     font-size: 18px;
 }
+
+@media screen and (max-width:480px){
+   main{
+    position:relative;
+    display: inline-block;
+   }
+   .text-area, .boton-encriptar, .boton-desencriptar{
+    width: 50%;
+   }
+   .mensaje{
+    width: auto;
+    margin-left: 0%;
+   }
+}
